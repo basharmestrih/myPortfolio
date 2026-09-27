@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact Us"
+  },
+  "about": {
+    "name": "Bashar Mestrih",
+    "title": "Frontend Developer",
+    "description": "I am Mobile app/Frontend developer focused on building intuitive, high-performance mobile and web applications with clean UI and scalable architecture. Collaborate with customers to ideate app concepts leveraging Flutter’s widgets and React’s components for rapid prototyping.",
+    "imageUrl": "/src/public/photo_2023-12-01_02-41-38.jpg",
+    "email": "Email",
+    "location": "Location",
+    "locationValue": "Syria",
+    "experience": "Experience",
+    "yearsExp": "2+ Years",
+    "cta": "Download Resume"
+  },
+  "experience": {
+    "title": "Experience",
+    "skills": "Skills Used",
+    "jobs": [
+      {
+        "position": "Mid-level Frontend Developer",
+        "company": "United Education",
+        "period": "2026 - Present",
+        "description": [
+          "Develop and maintain global websites and web applications with React.js and Next.js.",
+          "Build interactive event experiences with responsive, reusable UI components and API integrations.",
+          "Collaborate with cross-functional teams to deliver reliable, high-quality frontend solutions."
+        ],
+        "skills": ["React", "TypeScript", "Tailwind CSS", "NextJS", "" , "REST API"]
+      },
+      {
+        "position": "Mid-Level Mobile App Developer",
+        "company": "Code & Create",
+        "period": "09/2024 - 06/2025 | Beirut, Lebanon",
+        "description": [
+          "Built Flutter interfaces with GetX, BLOC, and Provider state management.",
+          "Integrated Google Maps, Stripe, File Picker, OneSignal, Firebase, and Supabase.",
+          "Connected Laravel APIs with MongoDB and PostgreSQL, and supported deployment and marketing."
+        ],
+        "skills": ["Flutter", "GetX", "BLOC", "Provider", "Google Maps", "Stripe", "Firebase", "Supabase", "Laravel", "MongoDB", "PostgreSQL"]
+      },
+      {
+        "position": "Frontend Team Volunteer",
+        "company": "Syrmania Platform",
+        "period": "07/2025 - Present | Germany - Syria",
+        "description": [
+          "Support frontend development for a platform connecting Syrian talent with the European market.",
+          "Contribute design ideas that improve the platform's usability and visual direction.",
+          "Help create and refine the web app's UI/UX for a better user experience."
+        ],
+        "skills": ["Frontend Development", "UI/UX", "Web Apps", "Design Systems"]
+      },
+      {
+        "position": "Robotics & Coding Trainer",
+        "company": "Tautology",
+        "period": "11/2025 - Present | Aleppo",
+        "description": [
+          "Teach Python fundamentals through clear, accessible coding lessons.",
+          "Lead hands-on Arduino activities with circuits, sensors, and electronic projects.",
+          "Guide learners in building practical projects such as smart gadgets and mini-robots."
+        ],
+        "skills": ["Python", "Arduino", "Robotics", "Circuits", "Sensors", "STEM Education"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "frameworks": "Tech Stack",
+    "viewProject": "View Project",
+    "items": [
+      {
+        "name": "United Education",
+        "description": "A global university studies agency website for international students. Developed with React, Next.js, and TypeScript.",
+        "frameworks": ["React", "Next.js"],
+        "imageUrl": "/src/public/united.png",
+        "link": "https://unitededucation.com/ar"
+      },
+      {
+        "name": "Biruni University",
+        "description": "A single-page website that helps students apply to Biruni University.",
+        "frameworks": ["React", "Next.js"],
+        "imageUrl": "/src/public/biruni.png",
+        "link": "https://applybirouni.vercel.app/"
+      },
+      {
+        "name": "Erp Blanco",
+        "description": "A frontend UI web app for an ERP system focused on product management. Designed to provide a clear and efficient product management hub.",
+        "frameworks": ["Vue", "Laravel", "TypeScript"],
+        "imageUrl": "/src/public/erp.png",
+        "link": "https://erpblanco.vercel.app/"
+      },
+      {
+        "name": "Fitness Radar",
+        "description": "A web app for tracking calorie consumption and managing personal health statistics. It helps users monitor their daily health and fitness data.",
+        "frameworks": ["React", "Supabase"],
+        "imageUrl": "/src/public/radar.png",
+        "link": "https://fitness-radar-eta.vercel.app/"
+      },
+      {
+        "name": "Gift Card Store",
+        "description": "An online store for digital products, including gift cards, games, subscriptions, and apps. Users can browse and purchase digital products in one place.",
+        "frameworks": ["React", "Laravel", "Next.js"],
+        "imageUrl": "/src/public/gift.png",
+        "link": "https://servicestore1.com/"
+      },
+      {
+        "name": "NGO Kitchen",
+        "description": "Full-stack platform for organizing charity meal events, with community tools for sharing events, raising funds, and promoting kindness. Built with React, Next.js, Material UI, and MongoDB (Mongoose).",
+        "frameworks": ["React", "Next.js"],
+        "imageUrl": "/src/public/ngo.png",
+        "link": "https://lastversionngokitchen.vercel.app/"
+      },
+      {
+        "name": "Klinica",
+        "description": "Clinic appointment and health marketplace built with React.js and Next.js, supporting authentication, doctor booking, store orders, and patient-doctor chat. Includes health products and medicines available for direct purchase.",
+        "frameworks": ["React", "Next.js"],
+        "imageUrl": "/src/public/klininca.png",
+        "link": "https://klinica-web-app.vercel.app/"
+      },
+      {
+        "name": "Sorina Real Estate App",
+        "description": "Android real estate platform for listing, searching, and filtering properties across more than 10 Syrian cities. Built with Flutter, Laravel, and GetX, with rich media listings, detailed property specifications, and architect consultation.",
+        "frameworks": ["Supabase", "Flutter"],
+        "imageUrl": "",
+        "link": "https://github.com/basharmestrih/Sorina-Real-Estate-App-Flutter-Laravel-"
+      },
+      {
+        "name": "Safar Sooq App",
+        "description": "A mobile real estate marketplace serving more than 10 cities across Syria.",
+        "frameworks": ["Laravel", "Flutter", ".NET"],
+        "imageUrl": "",
+        "link": "https://github.com/basharmestrih/Safari-Sooq-E-commerce-Store"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's build something amazing together. Feel free to reach out!",
+    "getInTouch": "Contact Information",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "location": "Location",
+    "followMe": "Follow Me",
+    "sendMessage": "Send Me a Message",
+    "name": "Bashar Mestrih",
+    "namePlaceholder": "Enter your full name",
+    "emailLabel": "Your Email",
+    "emailPlaceholder": "Enter your email address",
+    "message": "Message",
+    "messagePlaceholder": "Type your message here...",
+    "send": "Send Message"
+  }
+}

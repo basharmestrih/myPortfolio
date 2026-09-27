@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --accent: oklch(54.1% 0.281 293.009);
+  --accent-10: oklch(54.1% 0.281 293.009 / 0.1);
+  --accent-50: oklch(54.1% 0.281 293.009 / 0.5);
+  --accent-75: oklch(54.1% 0.281 293.009 / 0.75);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-950 text-white font-sans;
+  font-family: 'Inter', system-ui, avenir, helvetica, arial, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-700 rounded-full hover:bg-gray-600;
+}
+
+/* Smooth transitions */
+a, button {
+  transition: all 0.3s ease;
+}
+
+/* Section padding */
+.section-padding {
+  @apply py-20 px-4 sm:px-6 lg:px-8;
+}
+
+/* Max width container */
+.max-container {
+  @apply max-w-7xl mx-auto;
+}
+
+/* Card styles */
+.card {
+  @apply bg-gray-900 rounded-lg border border-gray-800 p-6 hover:border-gray-700 transition-all duration-300;
+}
+
+.card-hover {
+  @apply hover:bg-gray-800/50 hover:shadow-lg hover:shadow-[var(--accent-10)];
+}
