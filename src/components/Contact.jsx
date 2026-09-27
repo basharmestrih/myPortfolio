@@ -75,10 +75,10 @@ export default function Contact() {
                   className="flex items-center gap-3 bg-gray-800 hover:bg-[var(--accent)] p-4 rounded-lg transition-all duration-300 group border border-gray-700 hover:border-[var(--accent)]"
                 >
                   <div className="w-8 h-8 flex items-center justify-center shrink-0">
-                    <img
-                      src={link.icon}
-                      alt={`${link.name} logo`}
-                      className="w-7 h-7 object-contain"
+                    <link.icon
+                      aria-label={`${link.name} logo`}
+                      className="w-7 h-7 fill-white"
+                      role="img"
                     />
                   </div>
                   <div>

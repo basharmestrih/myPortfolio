@@ -1,3 +1,5 @@
+import { FaBehance, FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
+
 // EXPERIENCE DATA - Easy to edit
 export const experienceData = [
   {
@@ -42,31 +44,31 @@ export const socialLinks = [
   {
     name: 'GitHub',
     handle: 'basharmestrih',
-    icon: 'https://cdn.simpleicons.org/github/ffffff',
+    icon: FaGithub,
     url: 'https://github.com/basharmestrih',
   },
   {
     name: 'LinkedIn',
     handle: 'bashar-mestrih',
-    icon: 'https://cdn.simpleicons.org/linkedin/ffffff',
+    icon: FaLinkedin,
     url: 'https://www.linkedin.com/in/bashar-mestrih-b99201242/',
   },
   {
     name: 'WhatsApp',
     handle: '+963 371 389 15',
-    icon: 'https://cdn.simpleicons.org/whatsapp/ffffff',
+    icon: FaWhatsapp,
     url: 'https://wa.me/96337138915',
   },
   {
     name: 'Instagram',
     handle: '@bashar_mestrih',
-    icon: 'https://cdn.simpleicons.org/instagram/ffffff',
+    icon: FaInstagram,
     url: 'https://www.instagram.com/bashar_mestrih?igsh=MW9na2IzcmI5d2NodA==',
   },
   {
     name: 'Behance',
     handle: 'basharmest',
-    icon: 'https://cdn.simpleicons.org/behance/ffffff',
+    icon: FaBehance,
     url: 'https://www.behance.net/basharmest',
   },
 ]

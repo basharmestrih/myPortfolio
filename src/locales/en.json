@@ -9,7 +9,7 @@
     "name": "Bashar Mestrih",
     "title": "Frontend Developer",
     "description": "I am Mobile app/Frontend developer focused on building intuitive, high-performance mobile and web applications with clean UI and scalable architecture. Collaborate with customers to ideate app concepts leveraging Flutter’s widgets and React’s components for rapid prototyping.",
-    "imageUrl": "/src/public/photo_2023-12-01_02-41-38.jpg",
+    "imageUrl": "/photo_2023-12-01_02-41-38.jpg",
     "email": "Email",
     "location": "Location",
     "locationValue": "Syria",
@@ -76,49 +76,49 @@
         "name": "United Education",
         "description": "A global university studies agency website for international students. Developed with React, Next.js, and TypeScript.",
         "frameworks": ["React", "Next.js"],
-        "imageUrl": "/src/public/united.png",
+          "imageUrl": "/united.png",
         "link": "https://unitededucation.com/ar"
       },
       {
         "name": "Biruni University",
         "description": "A single-page website that helps students apply to Biruni University.",
         "frameworks": ["React", "Next.js"],
-        "imageUrl": "/src/public/biruni.png",
+          "imageUrl": "/biruni.png",
         "link": "https://applybirouni.vercel.app/"
       },
       {
         "name": "Erp Blanco",
         "description": "A frontend UI web app for an ERP system focused on product management. Designed to provide a clear and efficient product management hub.",
         "frameworks": ["Vue", "Laravel", "TypeScript"],
-        "imageUrl": "/src/public/erp.png",
+          "imageUrl": "/erp.png",
         "link": "https://erpblanco.vercel.app/"
       },
       {
         "name": "Fitness Radar",
         "description": "A web app for tracking calorie consumption and managing personal health statistics. It helps users monitor their daily health and fitness data.",
         "frameworks": ["React", "Supabase"],
-        "imageUrl": "/src/public/radar.png",
+          "imageUrl": "/radar.png",
         "link": "https://fitness-radar-eta.vercel.app/"
       },
       {
         "name": "Gift Card Store",
         "description": "An online store for digital products, including gift cards, games, subscriptions, and apps. Users can browse and purchase digital products in one place.",
         "frameworks": ["React", "Laravel", "Next.js"],
-        "imageUrl": "/src/public/gift.png",
+          "imageUrl": "/gift.png",
         "link": "https://servicestore1.com/"
       },
       {
         "name": "NGO Kitchen",
         "description": "Full-stack platform for organizing charity meal events, with community tools for sharing events, raising funds, and promoting kindness. Built with React, Next.js, Material UI, and MongoDB (Mongoose).",
         "frameworks": ["React", "Next.js"],
-        "imageUrl": "/src/public/ngo.png",
+          "imageUrl": "/ngo.png",
         "link": "https://lastversionngokitchen.vercel.app/"
       },
       {
         "name": "Klinica",
         "description": "Clinic appointment and health marketplace built with React.js and Next.js, supporting authentication, doctor booking, store orders, and patient-doctor chat. Includes health products and medicines available for direct purchase.",
         "frameworks": ["React", "Next.js"],
-        "imageUrl": "/src/public/klininca.png",
+          "imageUrl": "/klininca.png",
         "link": "https://klinica-web-app.vercel.app/"
       },
       {
