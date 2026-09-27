@@ -23,9 +23,13 @@ export default function About() {
             </p>
 
             <div className="pt-4">
-              <button className="bg-[var(--accent)] hover:bg-[var(--accent)] text-white font-bold py-3 px-8 rounded-lg transition-all duration-300 shadow-lg shadow-[var(--accent-50)] hover:shadow-[var(--accent-75)]">
+              <a
+                href="/Bashar-Mestrih-Resume-1.pdf"
+                download="Bashar-Mestrih-Resume.pdf"
+                className="inline-block bg-[var(--accent)] hover:bg-[var(--accent)] text-white font-bold py-3 px-8 rounded-lg transition-all duration-300 shadow-lg shadow-[var(--accent-50)] hover:shadow-[var(--accent-75)]"
+              >
                 {t('about.cta')}
-              </button>
+              </a>
             </div>
           </div>
 
