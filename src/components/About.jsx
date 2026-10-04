@@ -10,7 +10,7 @@ export default function About() {
           {/* Left side - Name and About */}
           <div className="space-y-6">
             <div>
-              <h1 className="text-5xl sm:text-6xl font-black text-white mb-4 leading-tight">
+              <h1 className="mb-4 text-4xl font-black leading-tight text-white sm:text-6xl">
                 {t('about.name')}
               </h1>
               <p className="text-xl sm:text-2xl font-bold text-[var(--accent)] mb-8">

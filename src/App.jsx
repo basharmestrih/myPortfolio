@@ -14,7 +14,7 @@ function App() {
     <div className="bg-gray-950 min-h-screen text-white">
       <Header activeSection={activeSection} setActiveSection={setActiveSection} />
       
-      <main className="pt-20">
+      <main className="pt-20 sm:pt-20">
         {activeSection === 'about' && <About />}
         {activeSection === 'experience' && <Experience />}
         {activeSection === 'projects' && <Projects />}

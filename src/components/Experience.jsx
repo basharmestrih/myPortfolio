@@ -7,7 +7,7 @@ export default function Experience() {
   return (
     <section className="section-padding bg-gray-950">
       <div className="max-container">
-        <h2 className="text-5xl sm:text-6xl font-black mb-16 text-white">
+        <h2 className="hidden text-5xl font-black text-white sm:mb-16 sm:block sm:text-6xl">
           {t('experience.title')}
         </h2>
 

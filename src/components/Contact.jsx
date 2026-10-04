@@ -5,9 +5,9 @@ export default function Contact() {
   const { t } = useTranslation()
 
   return (
-    <section className="section-padding bg-gray-950 min-h-[calc(100vh-80px)] flex items-center">
+    <section className="section-padding bg-gray-950 min-h-[calc(100vh-80px)] flex items-start sm:items-center">
       <div className="max-container w-full">
-        <div className="text-center mb-16">
+        <div className="mb-8 hidden text-center sm:mb-16 sm:block">
           <h2 className="text-5xl sm:text-6xl font-black text-white mb-4">
             {t('contact.title')}
           </h2>
@@ -16,10 +16,10 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="mx-auto grid max-w-4xl grid-cols-1 gap-5 sm:gap-8 md:grid-cols-2">
           {/* Contact Info Card */}
-          <div className="card card-hover">
-            <h3 className="text-2xl font-black text-white mb-6">
+          <div className="card card-hover min-w-0">
+            <h3 className="mb-5 text-xl font-black text-white sm:mb-6 sm:text-2xl">
               {t('contact.getInTouch')}
             </h3>
             
@@ -30,7 +30,7 @@ export default function Contact() {
                 </p>
                 <a
                   href="mailto:mestbashar@gmail.com"
-                  className="text-[var(--accent)] font-bold text-lg hover:text-[var(--accent)] transition-colors"
+                  className="break-all text-base font-bold text-[var(--accent)] transition-colors hover:text-[var(--accent)] sm:text-lg"
                 >
                   mestbashar@gmail.com
                 </a>
@@ -42,7 +42,7 @@ export default function Contact() {
                 </p>
                 <a
                   href="tel:+963937138915"
-                  className="text-[var(--accent)] font-bold text-lg hover:text-[var(--accent)] transition-colors"
+                  className="break-all text-base font-bold text-[var(--accent)] transition-colors hover:text-[var(--accent)] sm:text-lg"
                 >
                   +963 937 138 915
                 </a>
@@ -52,7 +52,7 @@ export default function Contact() {
                 <p className="text-gray-400 text-sm font-semibold uppercase tracking-wide mb-2">
                   {t('contact.location')}
                 </p>
-                <p className="text-white font-bold text-lg">
+                <p className="break-words text-base font-bold text-white sm:text-lg">
                   Aleppo, Syria
                 </p>
               </div>
@@ -60,19 +60,19 @@ export default function Contact() {
           </div>
 
           {/* Social Links Card */}
-          <div className="card card-hover">
-            <h3 className="text-2xl font-black text-white mb-6">
+          <div className="card card-hover min-w-0">
+            <h3 className="mb-5 text-xl font-black text-white sm:mb-6 sm:text-2xl">
               {t('contact.followMe')}
             </h3>
             
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 gap-3 min-[380px]:grid-cols-2 sm:gap-4">
               {socialLinks.map((link, index) => (
                 <a
                   key={index}
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 bg-gray-800 hover:bg-[var(--accent)] p-4 rounded-lg transition-all duration-300 group border border-gray-700 hover:border-[var(--accent)]"
+                  className="group flex min-w-0 items-center gap-3 rounded-lg border border-gray-700 bg-gray-800 p-3 transition-all duration-300 hover:border-[var(--accent)] hover:bg-[var(--accent)] sm:p-4"
                 >
                   <div className="w-8 h-8 flex items-center justify-center shrink-0">
                     <link.icon
@@ -81,11 +81,11 @@ export default function Contact() {
                       role="img"
                     />
                   </div>
-                  <div>
-                    <p className="text-gray-300 group-hover:text-white font-bold text-sm">
+                  <div className="min-w-0">
+                    <p className="truncate text-sm font-bold text-gray-300 group-hover:text-white">
                       {link.name}
                     </p>
-                    <p className="text-gray-500 group-hover:text-gray-200 text-xs">
+                    <p className="break-words text-xs text-gray-500 group-hover:text-gray-200">
                       {link.handle}
                     </p>
                   </div>

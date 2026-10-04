@@ -125,14 +125,14 @@
         "name": "Sorina Real Estate App",
         "description": "Android real estate platform for listing, searching, and filtering properties across more than 10 Syrian cities. Built with Flutter, Laravel, and GetX, with rich media listings, detailed property specifications, and architect consultation.",
         "frameworks": ["Supabase", "Flutter"],
-        "imageUrl": "",
+        "imageUrl": "https://www.dharact.com/assets/EstimatorBanner-B_8bq-sB.webp",
         "link": "https://github.com/basharmestrih/Sorina-Real-Estate-App-Flutter-Laravel-"
       },
       {
-        "name": "Safar Sooq App",
-        "description": "A mobile real estate marketplace serving more than 10 cities across Syria.",
+        "name": "Safari Sooq App",
+        "description": "A mobile ecommerce marketplace for browsing products, managing carts, and shopping through a clean Flutter store experience.",
         "frameworks": ["Laravel", "Flutter", ".NET"],
-        "imageUrl": "",
+        "imageUrl": "https://public.readdy.ai/ai/img_res/bdb5dabba6fee961c549976e5c6acebf.jpg",
         "link": "https://github.com/basharmestrih/Safari-Sooq-E-commerce-Store"
       }
     ]
