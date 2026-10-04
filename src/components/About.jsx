@@ -73,6 +73,38 @@ export default function About() {
                     {t('about.yearsExp')}
                   </p>
                 </div>
+
+                <div className="border-t border-gray-700 pt-4">
+                  <p className="text-gray-400 text-sm font-semibold uppercase tracking-wide mb-3">
+                    {t('about.codingLanguages')}
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {t('about.codingLanguagesList', { returnObjects: true }).map((language) => (
+                      <span
+                        key={language}
+                        className="rounded-full border border-gray-700 bg-gray-800 px-3 py-1 text-xs font-bold text-[var(--accent)]"
+                      >
+                        {language}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="border-t border-gray-700 pt-4">
+                  <p className="text-gray-400 text-sm font-semibold uppercase tracking-wide mb-3">
+                    {t('about.frameworks')}
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {t('about.frameworksList', { returnObjects: true }).map((framework) => (
+                      <span
+                        key={framework}
+                        className="rounded-full border border-gray-700 bg-gray-800 px-3 py-1 text-xs font-bold text-[var(--accent)]"
+                      >
+                        {framework}
+                      </span>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
           </div>

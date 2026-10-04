@@ -14,7 +14,11 @@
     "location": "Location",
     "locationValue": "Syria",
     "experience": "Experience",
-    "yearsExp": "2+ Years",
+    "yearsExp": "+1.5 Years",
+    "codingLanguages": "Coding Languages",
+    "codingLanguagesList": ["JavaScript", "Python", "Dart", "PHP"],
+    "frameworks": "Frameworks",
+    "frameworksList": ["React", "Flutter", "Vue", "Laravel"],
     "cta": "Download Resume"
   },
   "experience": {
@@ -30,7 +34,7 @@
           "Build interactive event experiences with responsive, reusable UI components and API integrations.",
           "Collaborate with cross-functional teams to deliver reliable, high-quality frontend solutions."
         ],
-        "skills": ["React", "TypeScript", "Tailwind CSS", "NextJS", "" , "REST API"]
+        "skills": ["React", "TypeScript", "Tailwind CSS", "NextJS", "REST API"]
       },
       {
         "position": "Mid-Level Mobile App Developer",
